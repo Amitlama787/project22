@@ -1,0 +1,145 @@
+
+.darkblue{
+    color:#032E59 ;
+}
+
+.pic{
+    width: 900px;
+    height: 400px;
+    transition: 0.4s;
+    animation-direction: alternate;
+    z-index: 0;
+    
+   
+    
+   
+   
+   
+
+}
+.pic:hover{
+    scale: 1.11;
+   
+
+    
+}
+
+.order{
+    border: 1px solid black;
+    width: 900px;
+    height: 300px;
+   margin: auto;
+   overflow: hidden;
+
+}
+
+.rel{
+    position: relative;
+    bottom: 154px;
+    left: -9px;
+}
+.btnlo{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 6px 30px;
+}
+
+.image{
+    width:300px ;
+    animation-direction: alternate;
+    transition: 0.9s;
+ 
+}
+
+.hov{
+    border: 1px solid #ccc;
+    width: 300px;
+    overflow: hidden;
+}
+.image:hover{
+    scale: 1.13;
+   
+    
+    
+}
+.btnR{
+   border: 1px solid white ;
+   width:100px ;
+   background: transparent;
+    color: white;
+   position: relative;
+   bottom: 79px;
+   left: 91px;
+   font-weight: bold;
+
+}
+.btnR:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: #144677d1;
+}
+.opimg{
+    width: 700px;
+    
+}
+
+.intro{
+    text-transform: uppercase;
+    
+    font-size: 13px;
+    width: 400px;
+    word-spacing:3px;
+  
+}
+
+@media screen and (max-width:430px) {
+    .hov{
+        margin:auto;
+    }
+  
+    .btnR{
+        position: relative;
+        left: 154px;
+
+    }
+    .opimg{
+        width: 100%;
+    }
+    .cola{
+       margin: auto;
+       margin-top: 20px;
+       line-height: 30px;
+    }
+    .order{
+        width: 100%;
+        
+    }
+    .pic{width: 100%;}
+    .bgh{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .terf{
+        width: 100%;
+    }
+    
+}
+.bgh{
+    background: #032E59;
+    padding-bottom: 30px;
+
+
+}
+.okay{
+    padding-top: 50px;
+}
+.oya{
+ background-color:#1c3b64;
+ width: 370px;
+}
+
+.lio li{
+    list-style: disc;
+}

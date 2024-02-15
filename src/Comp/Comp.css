@@ -1,0 +1,166 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
+    height: auto;
+}
+
+li{
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.hed{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
+}
+
+.blue{
+    background-color: #06264D;
+    height: 80px;
+}
+.home{
+    background-color: #06264D;
+    height: 800px;
+    background-image: url(https://sangalotech.com/html/10/assets/images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+}
+.og{
+    padding: 160px 10px;
+    margin-left: 50px;
+    line-height: 100px;
+    width: 700px;
+}
+.fso{
+    font-size: 60px;
+    font-weight: bold;
+}
+.im{
+   animation-duration: 14s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-name:klkl ;
+   margin-top: 70px;
+   
+}
+@keyframes klkl{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.lue{
+    background-color: #06264D;
+}
+
+.wid{
+    width: 700px;
+    line-height: 30px;
+}
+.GREE{
+    color: #02FF99;
+}
+.be::before{
+    content: '';
+}
+.bgo{
+    background-image: url(https://sangalotech.com/html/10/assets/images/service-bg.jpg);
+    
+}
+.wl{
+   
+    text-align: center;
+    padding: 30px 0;
+}
+.cog{
+    border: 1px solid #032E59;
+    background-color:#032E59 ;
+    padding: 20px;
+    border-radius: 40px;
+   margin: 10px 30px;
+   color: white;
+    
+}
+.cog:hover{
+    border: 1px solid white;
+    background-color:white ;
+    color:#696969;
+}
+
+@media screen and (max-width:430px) { 
+    body{
+        width: 500px;
+    }
+}
+@media screen and (max-width:430px)
+ {
+    body{
+        width:450px ;
+    }
+  
+    .nextpi{
+        width: 100px;
+    }
+    .fso{
+        font-size: 30px;
+    }
+    .osf{
+        font-size: 15px;
+    }
+    .terf{
+        width: 100%;
+    }
+    .bgo{
+        width: 100%;
+        background-image: none;
+        background-color: #193d61;
+    }
+    .cgo{
+        margin: 0;
+    }
+    .black{
+        width: 100%;
+    }
+}
+.black{
+    background-color: #000000;
+    padding: 60px;
+    padding-bottom: 50px;
+}
+
+
+.icons{
+    font-size: 30px;
+    color: white;
+}
+
+.terms:hover{
+    border-bottom: 4px solid orange;
+    width: 155px;
+   
+   
+  
+}
+.term:hover{
+    border-bottom: 4px solid orange;
+    width: 100px;
+ 
+    
+  
+}
+.term{
+    margin-left: 20px;
+}
+
